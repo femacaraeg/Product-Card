@@ -99,7 +99,7 @@ section {
   background-color: var(--dark-cyan);
   width: 100%;
   border: none;
-  padding: 0.5rem;
+  padding: 0.75rem;
   border-radius: 5px;
 
   display: flex;
@@ -114,7 +114,7 @@ section {
   background-color: hsl(158, 36%, 20%);
 }
 
-.submit-button p {
+.submit-button span {
   color: var(--white);
   font-weight: 700;
 }
