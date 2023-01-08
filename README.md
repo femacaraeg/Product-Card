@@ -59,7 +59,7 @@ I am still mastering the skill of building responsive webpages. I still take my 
 ## Author
 
 - Website - [Fe Macaraeg ](https://femacaraeg.github.io/my-portfolio/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/femacaraeg)
+- Frontend Mentor - [@femacaraeg](https://www.frontendmentor.io/profile/femacaraeg)
 
 ## Acknowledgments
 
