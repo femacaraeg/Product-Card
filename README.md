@@ -16,8 +16,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -52,8 +50,6 @@ I learned to build a webpage from scratch using plain HTML, CSS and vanilla java
 ### Continued development
 
 I am still mastering the skill of building responsive webpages. I still take my time in applying responsiveness that's why I try to exercise and build pages daily so that I can be more comfortable building responsive webpages in the future.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
