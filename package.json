@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple Product Detail Page",
   "main": "index.js",
-  "homepage": "https://femacaraeg.github.io/Product-Card",
+  "homepage": "https://femacaraeg.github.io/product-card",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/femacaraeg/Product-Card.git"
+    "url": "git+ssh://git@github.com/femacaraeg/product-card.git"
   },
   "keywords": [
     "responsive"
@@ -19,7 +19,7 @@
   "author": "Fe Macaraeg",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/femacaraeg/Product-Card/issues"
+    "url": "https://github.com/femacaraeg/product-card/issues"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
