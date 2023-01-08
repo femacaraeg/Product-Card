@@ -1,0 +1,131 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--cream);
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  color: var(--very-dark-blue);
+  font-size: 14px;
+  color: var(--dark-grayish-blue);
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2em;
+  color: var(--very-dark-blue);
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: var(--white);
+  height: 100%;
+  width: calc(100vw - 37px);
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.image-desktop {
+  display: none;
+}
+
+.category {
+  color: var(--dark-grayish-blue);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+}
+
+.current-price {
+  font-family: 'Fraunces', serif;
+  color: var(--dark-cyan);
+  font-size: 2em;
+  margin: 0;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  line-height: 1.5em;
+}
+
+.submit-button {
+  background-color: var(--dark-cyan);
+  width: 100%;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.submit-button p {
+  color: var(--white);
+  font-weight: 700;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (min-width: 1024px) {
+  .product-card {
+    flex-direction: row;
+    width: 700px;
+  }
+
+  .image-mobile {
+    display: none;
+  }
+
+  .image-desktop {
+    display: block;
+    width: 50%;
+  }
+}
