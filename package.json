@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Simple Product Detail Page",
   "main": "index.js",
+  "homepage": "https://femacaraeg.github.io/Product-Card",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
++   "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/femacaraeg/Product-Card/issues"
   },
-  "homepage": "https://github.com/femacaraeg/Product-Card#readme",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
