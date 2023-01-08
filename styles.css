@@ -99,13 +99,19 @@ section {
   background-color: var(--dark-cyan);
   width: 100%;
   border: none;
-  padding: 0.75rem;
+  padding: 0.5rem;
   border-radius: 5px;
 
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: hsl(158, 36%, 20%);
 }
 
 .submit-button p {
@@ -113,7 +119,6 @@ section {
   font-weight: 700;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (min-width: 1024px) {
   .product-card {
     flex-direction: row;
