@@ -122,7 +122,7 @@ section {
 @media (min-width: 1024px) {
   .product-card {
     flex-direction: row;
-    width: 700px;
+    max-width: 500px;
   }
 
   .image-mobile {
