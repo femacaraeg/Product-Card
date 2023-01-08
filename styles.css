@@ -48,12 +48,14 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  flex-grow: 1;
 }
 
 .product-card {
   background-color: var(--white);
   height: 100%;
-  width: calc(100vw - 37px);
+  max-width: calc(100vw - 37px);
   margin-right: auto;
   margin-left: auto;
   border-radius: 10px;
@@ -122,7 +124,8 @@ section {
 @media (min-width: 1024px) {
   .product-card {
     flex-direction: row;
-    max-width: 500px;
+    max-width: 600px;
+    max-height: 500px;
   }
 
   .image-mobile {
@@ -131,6 +134,7 @@ section {
 
   .image-desktop {
     display: block;
+    flex-grow: 1;
     width: 50%;
   }
 }
